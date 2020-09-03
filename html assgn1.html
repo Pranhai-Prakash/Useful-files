@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Frontend Assignment</title>
+<style>
+    body{
+        font-family:sans-serif;
+    }
+    div{
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 5px;
+        width:23%;
+        margin: 10% auto 10% auto;
+    }
+    #Heading{
+        text-align:center;
+        font-weight: 550;
+        
+    }
+    hr{
+        width:90%;
+    }
+    .full-width-input{
+        display:block;
+        text-decoration:none;
+        padding:2% 2%;
+        width:90%;
+        margin:5% auto 5% auto;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+    #invitation{
+        height:10%;
+        
+    }
+    textarea{
+        font-family: inherit;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+    #Button{
+        border:none;
+        display:block;
+        margin:2% auto; 
+        width:90%;
+        padding:3% 0;
+        background-color:rgba(0,255,255,0.2);
+        font-family:inherit;
+        color:gray;
+        font-size:18px;
+        margin-bottom: 5%;
+    }
+    a{
+        display: inline-block;
+        float:right;
+        margin-right:5%;
+    }
+    #end{
+        margin-left:5%;
+        font-size:14px;
+        font-weight:600;
+    }
+    #final{
+        display: block;
+        width:90%;
+        margin:auto;
+        font-size:13px;
+        
+    }
+
+</style>
+</head>
+<body>
+
+<div>
+    <form>
+    <p id="Heading"> Invite to Board</p><hr>	
+    <input type="text"  name="name" placeholder="Email address or name" class="full-width-input"> 
+ 
+
+
+    <textarea class="full-width-input" id="Invitation">I'm working on this project in Trello and wanted to share it with you!</textarea>
+
+    <input type="submit" value="Send Invitation" id="Button">  <hr>
+
+
+
+
+    <p id="end">[-] Invite with Link<a href="#">Create Link</a></p>
+    <p id="final">Anyone with this link can join as board member</p>
+    </form>
+</div>
+
+
+
+
+</body>
+</html>
